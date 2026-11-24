@@ -1,0 +1,15 @@
+# secrets / keys must never be committed
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*api_key*
+*apikey*
+*token*
+# python / local
+__pycache__/
+*.pyc
+*.npy
+venv/
+.venv/

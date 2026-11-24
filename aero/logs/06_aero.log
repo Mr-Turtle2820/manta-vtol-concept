@@ -1,0 +1,175 @@
+VLM: {
+ "res_5x5": {
+  "CL_alpha_per_deg": 0.07050422311758374,
+  "CL_alpha_per_rad": 4.03959442248624,
+  "CL0": -0.06309633856388809,
+  "x_np_m": -0.060245043264898095,
+  "np_frac_MAC_from_root_LE": 0.7740429696788327,
+  "np_frac_root_chord": 0.4583517106473186,
+  "dCm_dalpha_at_cg35_per_deg": -0.01283572581301237,
+  "dCm_dalpha_at_cg45_per_deg": -0.0009893731007859315
+ },
+ "res_8x8": {
+  "CL_alpha_per_deg": 0.07041997603937887,
+  "CL_alpha_per_rad": 4.034767420468792,
+  "CL0": -0.08644201377434844,
+  "x_np_m": -0.06016212839371756,
+  "np_frac_MAC_from_root_LE": 0.7747071499788757,
+  "np_frac_root_chord": 0.4587450068706914,
+  "dCm_dalpha_at_cg35_per_deg": -0.012869295936965553,
+  "dCm_dalpha_at_cg45_per_deg": -0.0010349172309451317
+ },
+ "res_12x10": {
+  "CL_alpha_per_deg": 0.07037075869108296,
+  "CL_alpha_per_rad": 4.031947474132611,
+  "CL0": -0.09611630630062282,
+  "x_np_m": -0.06014268181688864,
+  "np_frac_MAC_from_root_LE": 0.7748629246071076,
+  "np_frac_root_chord": 0.45883724925273284,
+  "dCm_dalpha_at_cg35_per_deg": -0.012872470364444189,
+  "dCm_dalpha_at_cg45_per_deg": -0.0010452049265307279
+ }
+}
+{
+ "geometry": {
+  "S_ref_m2": 0.059803861985617726,
+  "MAC_m": 0.12483789593753368,
+  "span_modelled_m": 0.584,
+  "span_mesh_m": 0.6009593505859375,
+  "AR": 5.702909288400485,
+  "root_chord_m": 0.21082041029906418,
+  "x_root_le_m": -0.15687493896484375,
+  "x_cg_m": {
+   "0.35": -0.0830877953601713,
+   "0.4": -0.07254677484521807,
+   "0.45": -0.06200575433026487
+  },
+  "mesh_planform_area_raster_m2": 0.06082675,
+  "area_pct_model_vs_raster": -1.68164173555594
+ },
+ "AeroBuildup_NP": {
+  "x_np_m": -0.06208581815605685,
+  "np_frac_root_chord": 0.4496202273504809,
+  "np_frac_MAC": 0.7592976483376285,
+  "dCm_dalpha_per_deg": {
+   "0.35": -0.013766781713957182,
+   "0.4": -0.006857149965415134,
+   "0.45": 5.248178312690459e-05
+  }
+ },
+ "static_margin_pct_MAC": {
+  "0.35": {
+   "VLM": 18.36434905785762,
+   "AeroBuildup": 16.823398893732886
+  },
+  "0.4": {
+   "VLM": 9.920582494996177,
+   "AeroBuildup": 8.379632330871445
+  },
+  "0.45": {
+   "VLM": 1.4768159321347574,
+   "AeroBuildup": -0.0641342319899752
+  }
+ },
+ "static_margin_verdict": {
+  "0.35": "STABLE (both)",
+  "0.4": "STABLE (both)",
+  "0.45": "SIGN DISAGREES between VLM and AeroBuildup: neutral"
+ },
+ "sensitivity_per_station_thickness_15ms": {
+  "alpha_required_deg": 7.714383560510646,
+  "CD": 0.04914557231888461,
+  "CD_baseline": 0.04842991381056611,
+  "note": "per-station t/c from the mesh (rim-contaminated fan stations use the outboard median)"
+ }
+}
+{
+ "10": {
+  "q_Pa": 61.249957794388166,
+  "CL_required": 1.1248206311093587,
+  "Re_MAC": 85463.28526129812,
+  "alpha_required_deg": null,
+  "note": "CL required is above the max CL of the model sweep (0.787): not reachable in this model.",
+  "trim": {
+   "0.35": {
+    "alpha_trim_deg": 3.118163565747865,
+    "CL_at_trim": 0.11593082359825044,
+    "dCm_dalpha_per_deg": -0.008894091916477857
+   },
+   "0.4": {
+    "alpha_trim_deg": 17.41251162043766,
+    "CL_at_trim": 0.7838405848621635,
+    "dCm_dalpha_per_deg": -0.0030062525387940155
+   },
+   "0.45": {
+    "alpha_trim_deg": null,
+    "CL_at_trim": null,
+    "dCm_dalpha_per_deg": 0.002881586838889813
+   }
+  }
+ },
+ "12": {
+  "q_Pa": 88.19993922391896,
+  "CL_required": 0.781125438270388,
+  "Re_MAC": 102555.94231355775,
+  "alpha_required_deg": 13.94861147512659,
+  "CD": 0.09655667447188866,
+  "LD": 8.089812978157232,
+  "drag_N": 0.5093072004414291,
+  "aero_power_W": 6.111686405297149,
+  "Cm_at_required_CL": {
+   "0.35": -0.0658018060475383,
+   "0.4": -0.0006635977391024541,
+   "0.45": 0.06447461056933325
+  },
+  "trim": {
+   "0.35": {
+    "alpha_trim_deg": 3.4926591894573162,
+    "CL_at_trim": 0.15152046200432476,
+    "dCm_dalpha_per_deg": -0.011022200555608814
+   },
+   "0.4": {
+    "alpha_trim_deg": 6.321563267992141,
+    "CL_at_trim": 0.37495431401613627,
+    "dCm_dalpha_per_deg": -0.004636126024037032
+   },
+   "0.45": {
+    "alpha_trim_deg": null,
+    "CL_at_trim": null,
+    "dCm_dalpha_per_deg": 0.0017499485075347376
+   }
+  }
+ },
+ "15": {
+  "q_Pa": 137.8124050373734,
+  "CL_required": 0.49992028049304826,
+  "Re_MAC": 128194.9278919472,
+  "alpha_required_deg": 7.493790503306347,
+  "CD": 0.04842991381056611,
+  "LD": 10.32255152153459,
+  "drag_N": 0.39914550112969305,
+  "aero_power_W": 5.987182516945396,
+  "Cm_at_required_CL": {
+   "0.35": -0.05272528703422959,
+   "0.4": -0.01053264029101951,
+   "0.45": 0.03166000645219049
+  },
+  "trim": {
+   "0.35": {
+    "alpha_trim_deg": 3.6903494419131717,
+    "CL_at_trim": 0.17469597000130285,
+    "dCm_dalpha_per_deg": -0.013766781713957182
+   },
+   "0.4": {
+    "alpha_trim_deg": 5.637892262540162,
+    "CL_at_trim": 0.3455885308992618,
+    "dCm_dalpha_per_deg": -0.006857149965415134
+   },
+   "0.45": {
+    "alpha_trim_deg": null,
+    "CL_at_trim": null,
+    "dCm_dalpha_per_deg": 5.248178312690459e-05
+   }
+  }
+ }
+}

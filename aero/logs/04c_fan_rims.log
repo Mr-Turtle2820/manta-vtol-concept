@@ -1,0 +1,54 @@
+{
+ "rim_height_top": {
+  "min": 3.6639260827261495,
+  "max": 5.0609391143270415,
+  "mean": 4.344362851924348,
+  "n": 8
+ },
+ "rim_height_bottom": {
+  "min": 3.7146603037793966,
+  "max": 5.905616593879131,
+  "mean": 4.9834345314411195,
+  "n": 6
+ },
+ "rim_height_all": {
+  "min": 3.6639260827261495,
+  "max": 5.905616593879131,
+  "mean": 4.618250714574393,
+  "n": 14
+ },
+ "outer_diameter": {
+  "min": 54.5,
+  "max": 54.75,
+  "mean": 54.57142857142857,
+  "n": 7
+ },
+ "hub_height_above_skin": {
+  "min": 5.102237800010414,
+  "max": 8.579016778926004,
+  "mean": 6.733756158152403,
+  "n": 7
+ },
+ "excluded_lines": [
+  "fan_y+1/bottom/spanwise_line"
+ ],
+ "diameter_median": 54.5,
+ "fan_centres_xy_mm": [
+  [
+   -58.375,
+   82.25
+  ],
+  [
+   -58.5,
+   -82.0
+  ]
+ ]
+}
+fan_y+1 top spanwise_line D=54.5 centre=82.2 rimA=3.66 rimB=4.35 hub=5.10 skinA=25.3 skinB=24.6
+fan_y+1 top chordwise_line D=54.8 centre=-58.4 rimA=4.74 rimB=4.54 hub=6.26 skinA=24.4 skinB=24.0
+fan_y+1 bottom spanwise_line D=43.5 centre=77.0 rimA=3.93 rimB=1.32 hub=6.35 skinA=7.3 skinB=6.9
+fan_y+1 bottom chordwise_line D=54.8 centre=-58.6 rimA=5.89 rimB=5.02 hub=8.58 skinA=9.1 skinB=8.5
+fan_y-1 top spanwise_line D=54.5 centre=-82.0 rimA=4.25 rimB=3.66 hub=5.35 skinA=24.6 skinB=25.3
+fan_y-1 top chordwise_line D=54.5 centre=-58.5 rimA=4.48 rimB=5.06 hub=6.40 skinA=24.4 skinB=24.0
+fan_y-1 bottom spanwise_line D=54.5 centre=-82.0 rimA=4.30 rimB=3.71 hub=6.90 skinA=8.0 skinB=7.3
+fan_y-1 bottom chordwise_line D=54.5 centre=-58.8 rimA=5.91 rimB=5.08 hub=8.55 skinA=9.1 skinB=8.5

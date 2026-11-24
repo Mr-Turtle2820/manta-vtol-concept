@@ -1,0 +1,53 @@
+{
+  "source": "E:\\Sewa_first\\manta\\meshy\\v0\\v0_silent_manta_remesh_quad.stl",
+  "watertight": true,
+  "winding_consistent": true,
+  "n_faces": 65620,
+  "n_vertices": 32752,
+  "n_components": 1,
+  "euler_number": -58,
+  "bounds_original_units": [
+    [
+      -92.23664855957031,
+      -176.10684204101562,
+      0.0
+    ],
+    [
+      88.5557632446289,
+      176.67091369628906,
+      50.0
+    ]
+  ],
+  "extents_original_units": [
+    180.79241180419922,
+    352.7777557373047,
+    50.0
+  ],
+  "axis_span": "Y",
+  "axis_nose_to_tail": "X",
+  "axis_up": "Z",
+  "nose_direction": "-X",
+  "nose_rule": "ASSUMPTION: swept wing is widest aft of mid-length; widest section at X=31.34, mid=-1.84",
+  "scale_factor_to_600mm_span": 1.7007875078347878,
+  "scaled_extents_mm": [
+    307.4894755079047,
+    600.0,
+    85.0393753917394
+  ],
+  "scaled_bounds_mm": [
+    [
+      -156.87493963466477,
+      -299.5203169875936,
+      0.0
+    ],
+    [
+      150.6145358732399,
+      300.4796830124064,
+      85.0393753917394
+    ]
+  ],
+  "scaled_watertight": true,
+  "scaled_volume_mm3": 930203.734490145,
+  "scaled_surface_area_mm2": 161747.19144367543,
+  "scale_note": "ASSUMPTION: span set to 600 mm. Meshy meshes have no true scale; no dimension here is measured."
+}

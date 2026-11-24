@@ -1,0 +1,38 @@
+{
+  "CG_fraction_root_chord_for_Cm0_at_CLreq_15ms": 0.41248160651679733,
+  "x_cg_mm": -69.9153974381554,
+  "static_margin_at_that_CG_pct_MAC": {
+    "AeroBuildup_NP": 6.271796895724919,
+    "VLM": 7.812747059849651
+  },
+  "speed_for_trim_at_CG_mps": {
+    "0.35": 25.374657762228154,
+    "0.4": 18.0410568981182
+  },
+  "alpha_required_VLM_crosscheck_deg": 8.326647170960449,
+  "alpha_required_AeroBuildup_deg": 7.493790503306347,
+  "CL_alpha_per_rad": {
+    "VLM_8x8": 4.034767420468792,
+    "AeroBuildup_0_8deg": 4.691813423406372
+  },
+  "CL_alpha_disagreement_pct": 16.28460663195399,
+  "VLM_resolution_spread": {
+    "NP_x_mm": [
+      -60.245043264898094,
+      -60.16212839371756,
+      -60.14268181688864
+    ],
+    "CL_alpha_per_rad": [
+      4.03959442248624,
+      4.034767420468792,
+      4.031947474132611
+    ],
+    "CL0": [
+      -0.06309633856388809,
+      -0.08644201377434844,
+      -0.09611630630062282
+    ]
+  },
+  "level_flight_speed_where_AB_peak_CL": 11.068566394539202,
+  "note": "the last line is arithmetic on the AeroBuildup section roll-over CL; it is NOT a stall-speed prediction"
+}

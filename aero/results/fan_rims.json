@@ -1,0 +1,163 @@
+{
+  "note": "MODEL RESULT (mesh measurement at ASSUMED 600 mm span; not a true dimension). Rim heights are measured relative to the skin just outside the rim.",
+  "params": {
+    "JUMP_mm": 1.5,
+    "RIM_W_mm": 4.0
+  },
+  "summary": {
+    "rim_height_top": {
+      "min": 3.6639260827261495,
+      "max": 5.0609391143270415,
+      "mean": 4.344362851924348,
+      "n": 8
+    },
+    "rim_height_bottom": {
+      "min": 3.7146603037793966,
+      "max": 5.905616593879131,
+      "mean": 4.9834345314411195,
+      "n": 6
+    },
+    "rim_height_all": {
+      "min": 3.6639260827261495,
+      "max": 5.905616593879131,
+      "mean": 4.618250714574393,
+      "n": 14
+    },
+    "outer_diameter": {
+      "min": 54.5,
+      "max": 54.75,
+      "mean": 54.57142857142857,
+      "n": 7
+    },
+    "hub_height_above_skin": {
+      "min": 5.102237800010414,
+      "max": 8.579016778926004,
+      "mean": 6.733756158152403,
+      "n": 7
+    },
+    "excluded_lines": [
+      "fan_y+1/bottom/spanwise_line"
+    ],
+    "diameter_median": 54.5,
+    "fan_centres_xy_mm": [
+      [
+        -58.375,
+        82.25
+      ],
+      [
+        -58.5,
+        -82.0
+      ]
+    ]
+  },
+  "detail": {
+    "fan_y+1": {
+      "top": {
+        "spanwise_line": {
+          "edge_a": 55.0,
+          "edge_b": 109.5,
+          "outer_diameter": 54.5,
+          "centre": 82.25,
+          "skin_a": 25.33383271721793,
+          "skin_b": 24.613896740795738,
+          "rim_height_a": 3.6639260827261495,
+          "rim_height_b": 4.351932299010016,
+          "hub_height_above_skin": 5.102237800010414,
+          "valid": true
+        },
+        "chordwise_line": {
+          "edge_a": -85.75,
+          "edge_b": -31.0,
+          "outer_diameter": 54.75,
+          "centre": -58.375,
+          "skin_a": 24.4301602837364,
+          "skin_b": 23.968477725533546,
+          "rim_height_a": 4.740531080730534,
+          "rim_height_b": 4.540900845585611,
+          "hub_height_above_skin": 6.25911664740336,
+          "valid": true
+        }
+      },
+      "bottom": {
+        "spanwise_line": {
+          "edge_a": 55.25,
+          "edge_b": 98.75,
+          "outer_diameter": 43.5,
+          "centre": 77.0,
+          "skin_a": 7.312934681640883,
+          "skin_b": 6.884351087873739,
+          "rim_height_a": 3.9295370556150715,
+          "rim_height_b": 1.3247246894001705,
+          "hub_height_above_skin": 6.347027488862324,
+          "valid": false
+        },
+        "chordwise_line": {
+          "edge_a": -86.0,
+          "edge_b": -31.25,
+          "outer_diameter": 54.75,
+          "centre": -58.625,
+          "skin_a": 9.121867068193652,
+          "skin_b": 8.513359176918428,
+          "rim_height_a": 5.887714146626124,
+          "rim_height_b": 5.0169842827914835,
+          "hub_height_above_skin": 8.579016778926004,
+          "valid": true
+        }
+      }
+    },
+    "fan_y-1": {
+      "top": {
+        "spanwise_line": {
+          "edge_a": -109.25,
+          "edge_b": -54.75,
+          "outer_diameter": 54.5,
+          "centre": -82.0,
+          "skin_a": 24.56876323816327,
+          "skin_b": 25.333131185928266,
+          "rim_height_a": 4.249663242383022,
+          "rim_height_b": 3.664532970071747,
+          "hub_height_above_skin": 5.348354227662419,
+          "valid": true
+        },
+        "chordwise_line": {
+          "edge_a": -85.75,
+          "edge_b": -31.25,
+          "outer_diameter": 54.5,
+          "centre": -58.5,
+          "skin_a": 24.40694173526785,
+          "skin_b": 23.97123502481314,
+          "rim_height_a": 4.4824771805606645,
+          "rim_height_b": 5.0609391143270415,
+          "hub_height_above_skin": 6.4008940909599445,
+          "valid": true
+        }
+      },
+      "bottom": {
+        "spanwise_line": {
+          "edge_a": -109.25,
+          "edge_b": -54.75,
+          "outer_diameter": 54.5,
+          "centre": -82.0,
+          "skin_a": 8.011758591027913,
+          "skin_b": 7.303831769174593,
+          "rim_height_a": 4.298978688279917,
+          "rim_height_b": 3.7146603037793966,
+          "hub_height_above_skin": 6.900111837777125,
+          "valid": true
+        },
+        "chordwise_line": {
+          "edge_a": -86.0,
+          "edge_b": -31.5,
+          "outer_diameter": 54.5,
+          "centre": -58.75,
+          "skin_a": 9.147937972394004,
+          "skin_b": 8.492156443347042,
+          "rim_height_a": 5.905616593879131,
+          "rim_height_b": 5.076653173290666,
+          "hub_height_above_skin": 8.546561724327553,
+          "valid": true
+        }
+      }
+    }
+  }
+}
